@@ -34,8 +34,8 @@ remapKey({'option'}, 'l', keyCode('right'))
 remapKey({'option'}, 'j', keyCode('left'))
 remapKey({'option'}, 'k', keyCode('down'))
 remapKey({'option'}, 'i', keyCode('up'))
-remapKey({'option'}, 'h', keyCode('home'))
-remapKey({'option'}, ';', keyCode('end'))
+remapKey({'option'}, 'h', keyCode('left', 'alt'))
+remapKey({'option'}, ';', keyCode('right', 'alt'))
 
 -- Edit text
 remapKey({'option'}, 'u', keyCode('delete'))
